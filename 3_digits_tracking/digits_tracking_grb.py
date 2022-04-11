@@ -28,11 +28,11 @@ x = mdl.addVars(keys, vtype=gp.GRB.BINARY, name='x')
 # add constraints
 # exactly one digit is assigned to each cell
 for i in I:
-    mdl.addConstr(sum(x[(i, k)] for k in K) == 1, name=f'One-digit-per-cell-{i}')
+    mdl.addConstr(sum(x[i, k] for k in K) == 1, name=f'One-digit-per-cell-{i}')
 
 # If the digit k is assigned to cell i, then i must appear k times in the grid.
 for i in I:
-    mdl.addConstr(sum(k * x[(i, k)] for k in K) == sum(x[(k, i)] for k in K), name=f'rep-condition-{i}')
+    mdl.addConstr(sum(k * x[i, k] for k in K) == sum(x[k, i] for k in K), name=f'rep-condition-{i}')
 
 # set the objective function
 mdl.setObjective(x[1, 1], sense=gp.GRB.MAXIMIZE)  # not really required for this problem
