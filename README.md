@@ -1,5 +1,5 @@
-# Mip Master Fun Puzzles
-This is a collection of fun puzzles proposed to the Mip Master
+# Mip Wise Fun Puzzles
+This is a collection of fun puzzles proposed to the Mip Wise
 community to be solved using MIP.
 
 Most of the puzzles proposed here can be solved with logic in traditional ways,
@@ -16,7 +16,7 @@ This mindset is crucial to effectively solving real-world analytics problems,
 which is like solving puzzles but in much lager scale.
 After all, you can certainly solve a 9X9-sudoku without a computer, but how about solving a 81x81-sudoku?
 
-## #6 - Nonogram
+## Nonogram
 _Aug 2021_  
 This is the [Nonogram Puzzle](https://en.wikipedia.org/wiki/Nonogram) 
 (also known as *Crucipixel*, *Paint by Numbers*, *Griddlers*, and other names).
@@ -27,62 +27,62 @@ For example, the second row must have two strings of filled cells, the first wit
 and the second one with length 1 (the order must be preserved). 
 Finally, there must be at least one empty cell between any two horizontal/vertical consecutive strings. 
 
-![Nonogram](figures/6_nonogram.png)
+![Nonogram](figures/nonogram.png)
 
 _Source_: Book [Integer Programming](https://link.springer.com/book/10.1007/978-3-319-11008-0), by
 Michele Conforti, Gérard Cornuéjols, and Giacomo Zambelli.  
-[Solution](6_nonogram)
+[Solution](nonogram)
 
-## #5 - Continuous Line
+## Continuous Line
 *Jul 2021*  
 Draw a continuous line that visits every empty cell of the grid exactly once. 
 The line can start in any empty cell, but it can only move to a horizontal or vertical 
 adjacent cell (diagonal moves are not allowed). 
 The line must not visit any of the colored cells.  
-![Continues Line](figures/5_continuous_line.png)  
+![Continues Line](figures/continuous_line.png)  
 
 *Source: Mip Master team.*  
-[Solution](5_continuous_line)
+[Solution](continuous_line)
 
-## #4 - Darts
+## Darts
 *Jul 2021*  
 Andrea, Antônio, and Luiz were playing darts. They each threw 6 darts (red marks), 
 and each scored 71 points. Andrea’s first 2 darts scored 22 points. 
 Antônio’s first dart scored 3 points. Who hit the bullseye?
-![Darts](figures/4_darts.png)  
+![Darts](figures/darts.png)  
 
 *Source: Adapted from [The Opex Analytics Weekly Puzzle](
 https://www.amazon.com/Opex-Analytics-Weekly-Puzzle-Probability/dp/1731343647) book, Volume II.*  
-[Solution](4_darts)
+[Solution](darts)
 
-## #3 - Digits Tracking
+## Digits Tracking
 *Jun 2021*  
 Consider the list of cells in the figure below.  
-![Digits Tracking](figures/3_digits_tracking.png)  
+![Digits Tracking](figures/digits_tracking.png)  
 Each cell has a label which is a digit from 0 to 9. 
 The goal is to place a digit, from 0 to 9, in each of the 10 cells in a way that the digit placed 
 in cell `i` equals the number of times the digit `i` appears in the list.
 For example, if digit 2 is placed in Cell 1, then digit 1 must be placed in exactly two cells.
 
 *Source: [Puzzle Corner - MIT](https://cs.nyu.edu/~gottlieb/tr/back-issues/).*  
-[Solution](3_digits_tracking)
+[Solution](digits_tracking)
 
-## #2 - Even/Odd Sudoku
+## Even/Odd Sudoku
 *Jun 2021*  
 Same rules of the standard sudoku, i.e., the digits 1 through 9 into the grid so that no digit repeats 
 in any row, column, or bold region. In addition, cells with a square must contain an even digit 
 and cells with a circle must contain an odd digit.  
-![Digits Tracking](figures/2_even_odd_sudoku.png)
+![Digits Tracking](figures/even_odd_sudoku.png)
 
 *Source: [The Art of Puzzles](https://www.gmpuzzles.com/blog/2021/03/even-odd-sudoku-by-swaroop-guggilam/).*  
-[Solution](2_even_odd_sudoku)
+[Solution](even_odd_sudoku)
 
-## #1 - Clueless Sudoku
+## Clueless Sudoku
 *May 2021*
 Same rules of the standard sudoku, i.e., fill the digits 1 through 6 into the grid so that no digit repeats 
 in any row, column, or bold region. In addition, the sum of the digits in every bold region is the same.
 
-![Clueless Sudoku](figures/1_clueless_sudoku.png)
+![Clueless Sudoku](figures/clueless_sudoku.png)
 
 There are 14 bold regions (also called blocks) as can be identified by the different colors in the figure and also
 defined here:    
@@ -93,4 +93,4 @@ defined here:
 
 *Source: Adapted from the book
 [The Opex Analytics Weekly Puzzle](https://www.amazon.com/Opex-Analytics-Weekly-Puzzle-Probability/dp/1731343647).*  
-[Solution](1_clueless_sudoku)
+[Solution](clueless_sudoku)
