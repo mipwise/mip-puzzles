@@ -1,5 +1,9 @@
 # Clueless Sudoku Puzzle -- Solution
 
+The sum of the digits in every region is 9.
+
+The unique solution is the following:
+
 |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|
 | 4   | 3   | 1   | 2   | 5   | 6   |
