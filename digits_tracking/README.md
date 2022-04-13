@@ -1,6 +1,6 @@
-# Digits Tracking - Solution
+# Digits Tracking
+This directory contains implementation of optimization models that solve the puzzle.
 
-This directory contains implementations of models that solves the puzzle. 
-The formulation is in the [docs](docs) directory.
-
-The statement of the puzzle is in the [main page](../README.md).
+- Statement of the puzzle: https://www.mipwise.com/puzzles/digits-tracking
+- MIP formulation: [docs](docs/README.md)
+- Solution to the puzzle: [solution](docs/digits_tracking_solution.md)

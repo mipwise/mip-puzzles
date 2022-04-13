@@ -1,4 +1,4 @@
-# Clueless Sudoku Puzzle -- Solution
+# Clueless Sudoku Puzzle - Solution
 
 The sum of the digits in every region is 9.
 
