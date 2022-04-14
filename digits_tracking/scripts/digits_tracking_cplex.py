@@ -3,7 +3,7 @@ Solution to the Digits Tracking puzzle.
 
 This version uses CPLEX as a solver.
 
-Created by Eric Zettermann and Aster Santana (Oct 2021).
+Created by Eric Zettermann and Aster Santana (Oct 2021), Mip Wise.
 """
 
 import docplex.mp.model as cpl

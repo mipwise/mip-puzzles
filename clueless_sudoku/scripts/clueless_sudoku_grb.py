@@ -3,7 +3,7 @@ Solution to the Clueless Sudoku.
 
 This version uses Gurobi as a solver.
 
-Created by Aster Santana (Oct, 2021), MipWise.com.
+Created by Aster Santana (Oct, 2021), Mip Wise.
 """
 
 import gurobipy as gp

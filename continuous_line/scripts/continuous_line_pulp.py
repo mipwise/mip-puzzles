@@ -3,9 +3,7 @@ Solution to the Continuous Line.
 
 This version uses PuLP as a modeling language and CBC as a solver.
 
-Created by Eric Zettermann (Jul 11, 2021).
-
-www.MipWise.com
+Created by Eric Zettermann (Jul 11, 2021), Mip Wise.
 """
 
 import pulp

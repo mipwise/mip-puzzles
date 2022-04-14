@@ -3,7 +3,7 @@ Solution to the Continuous Line.
 
 This version uses PuLP-CBC as a solver.
 
-Created by Aster (Sep, 2021), MipMaster.org.
+Created by Aster (Sep, 2021), Mip Wise.
 """
 
 import pulp

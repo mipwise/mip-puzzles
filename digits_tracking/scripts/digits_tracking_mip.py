@@ -3,7 +3,7 @@ Solution to the Digits Tracking puzzle.
 
 This version uses Python-MIP as a modeling language and CBC as a solver.
 
-Created by Aster Santana (Nov, 2021), MipWise.com.
+Created by Aster Santana (Nov, 2021), Mip Wise.
 """
 
 import mip

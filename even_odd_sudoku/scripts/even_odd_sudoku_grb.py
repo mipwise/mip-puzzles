@@ -3,7 +3,7 @@ Solution to the Even-odd Sudoku.
 
 This version uses Gurobi as a solver.
 
-Created by Luiz Suzana and Aster Santana (Oct 2021), MipWise.com.
+Created by Luiz Suzana and Aster Santana (Oct 2021), Mip Wise.
 """
 
 import gurobipy as gp

@@ -3,7 +3,7 @@ Solution to the Nonogram puzzle.
 
 This version uses SCIP as a solver.
 
-Created by Aster Santana and Éder Pinheiro (Aug, 2021), MipMaster.org.
+Created by Aster Santana and Éder Pinheiro (Aug, 2021), Mip Wise.
 """
 
 from pyscipopt import Model, quicksum
