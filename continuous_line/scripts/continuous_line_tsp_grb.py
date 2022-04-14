@@ -3,7 +3,7 @@ Solution to the Continuous Line.
 
 This version uses Gurobi as a solver.
 
-Created by Aster (Oct 2021), MipWise.com.
+Created by Aster (Oct 2021), Mip Wise.
 """
 
 import gurobipy as gp

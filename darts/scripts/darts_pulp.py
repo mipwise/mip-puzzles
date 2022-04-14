@@ -3,7 +3,7 @@ Solution to the Darts Puzzle.
 
 This version uses PuLP as a modeling language and CBC as a solver.
 
-Created by Andrea Rujano (Aug 05 2021), MipMaster.org.
+Created by Andrea Rujano (Aug 05 2021), Mip Wise.
 """
 
 import pulp

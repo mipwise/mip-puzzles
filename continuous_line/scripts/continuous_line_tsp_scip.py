@@ -3,7 +3,7 @@ Solution to the Continuous Line.
 
 This version uses SCIP as a solver.
 
-Created by Aster (Aug, 2021), MipMaster.org.
+Created by Aster (Aug, 2021), Mip Wise.
 """
 
 from pyscipopt import Model, quicksum

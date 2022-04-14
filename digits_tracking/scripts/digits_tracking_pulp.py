@@ -3,7 +3,7 @@ Solution to the Digits Tracking puzzle.
 
 This version uses PuLP as a modeling language and CBC as a solver.
 
-Created by Eric Zettermann (July, 2021), MipMaster.org.
+Created by Eric Zettermann (July, 2021), Mip Wise.
 """
 
 import pulp
