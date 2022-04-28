@@ -4,7 +4,7 @@ models that solve the puzzle.
 
 The append to the name of each file indicates the optimization solver
 used for the implementation of the mathematical formulation
-provided in the [docs](docs/README.md) directory.
+provided in the [docs](../docs/README.md) directory.
 
 - `cplex`: [CPLEX](https://www.ibm.com/analytics/cplex-optimizer)
 - `grb`: [Gurobi](https://www.gurobi.com/)
