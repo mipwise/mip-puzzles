@@ -1,0 +1,5 @@
+gurobipy==10.0.0
+openpyxl==3.1.5
+pulp==2.9.0
+pyscipopt==5.2.1
+ticdat==0.2.25
